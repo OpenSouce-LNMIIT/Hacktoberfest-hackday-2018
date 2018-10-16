@@ -1,0 +1,18 @@
+*#include<stdio.h>
+*int number(int a);
+*void main()
+*{int z,n;
+*	printf("*enter any number");
+*	scanf("%d",&n);
+*	z=number(n);
+*	
+*}
+*int number(int a)
+*{
+*	if(a>=1)
+*	{
+*	number(a-1);
+*	printf(" %d ",a);
+*	}
+*	return ;
+*}
