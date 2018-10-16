@@ -1,0 +1,14 @@
+*#include<stdio.h>
+*int sum(int a);
+*void main()
+*{int n,z;
+*	printf("enter any number");
+*	scanf("%d",&n);
+*	z=sum(n);
+*	printf("%d",z);
+*}
+*int sum(int a)
+*{
+*	if(a>=1)
+*		return a+sum(a-1);
+*}
